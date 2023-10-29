@@ -1,27 +1,48 @@
-# FormsReativos
+# Angular Form Validation Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Este é um projeto de aprendizado em Angular que demonstra a validação de formulários usando a biblioteca FormsModule. O objetivo deste projeto é ajudar desenvolvedores Angular iniciantes a entender como implementar a validação de formulários de maneira simples e eficaz.
 
-## Development server
+### Recursos
+- Formulário de exemplo com campos de entrada.
+- Validação de campos de entrada.
+- Exibição de erros quando os campos são preenchidos incorretamente.
+- Uso da biblioteca FormsModule do Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Pré-requisitos
+Antes de começar a trabalhar com este projeto, você deve ter o Angular instalado em seu ambiente de desenvolvimento. Se você ainda não tem o Angular instalado, pode fazer isso executando o seguinte comando:
 
-## Code scaffolding
+```bash
+  npm install -g @angular/cli
+```
+### Instalação
+Siga as etapas abaixo para instalar e executar o projeto em sua máquina:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone o repositório:
+   
+   ```bash
+     git clone https://github.com/thiagovarallo/angular-form-validation-project.git
+   ```
+2. Navegue até a pasta do projeto:
 
-## Build
+   ```bash
+     git clone https://github.com/thiagovarallo/angular-form-validation-project.git
+   ```
+3. Instale as dependências:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+     npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+     ng serve --o
+   ```
+   Agora, você pode acessar o aplicativo em seu navegador em **http://localhost:4200/**.
 
-## Running unit tests
+### Uso
+O projeto possui um formulário de exemplo com campos de entrada. Quando você preenche incorretamente algum campo e tenta enviar o formulário, os erros correspondentes serão exibidos. Isso ilustra como usar a biblioteca FormsModule do Angular para validar formulários e exibir mensagens de erro aos usuários.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Aprendizado com a Alura
+Este projeto foi desenvolvido como parte do aprendizado na plataforma Alura. A Alura oferece cursos e trilhas de aprendizado de alta qualidade para desenvolvedores, e este projeto é um exemplo prático do que você pode aprender por meio de seus cursos.
+<hr>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Observação: Este projeto foi criado com fins educacionais e não é recomendado para uso em produção. É destinado a fins de aprendizado e prática de validação de formulários em Angular com a biblioteca FormsModule.
