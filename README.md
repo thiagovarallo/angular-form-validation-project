@@ -25,7 +25,7 @@ Siga as etapas abaixo para instalar e executar o projeto em sua máquina:
 2. Navegue até a pasta do projeto:
 
    ```bash
-     git clone https://github.com/thiagovarallo/angular-form-validation-project.git
+      cd angular-form-validation-project
    ```
 3. Instale as dependências:
 
